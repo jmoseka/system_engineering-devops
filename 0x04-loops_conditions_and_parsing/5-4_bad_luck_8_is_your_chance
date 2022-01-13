@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#A Bash script that displays a strings using a while loop and if statemant
+i=0
+while [ $i -lt 10 ]
+do
+    ((i++))
+    if [ $i == 4 ]; then
+	echo "bad luck"
+    elif [ $i == 8 ]; then
+	echo "good luck"
+    else
+	echo "Holberton School"
+    fi
+done
