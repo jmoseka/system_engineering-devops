@@ -6,6 +6,6 @@ do
     ((i++))
     echo "Best School"
     if [ $i == 9 ]; then
-	echo "Hi
+	echo "Hi"
     
 done
